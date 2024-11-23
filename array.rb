@@ -1,19 +1,19 @@
 contacts = Array.new
 puts "How many contacts do you need to enter?"
-arrayLength = gets.chomp.to_f
+array_length = gets.chomp.to_f
 i = 0;
 
-while i < arrayLength do
+while i < array_length do
 puts "Enter Name: "
 name = gets.chomp
 puts "Enter Phone Number: "
-phoneNumber = gets.chomp
-contacts.push(name + " " + phoneNumber)
+phone_number = gets.chomp
+contacts.push(name + " " + phone_number)
 i += 1
 end
 
 i = 0 
-while i < arrayLength do 
+while i < array_length do 
     puts contacts[i]
     i += 1
 end
